@@ -11,7 +11,7 @@
 ![verilog_ls](https://user-images.githubusercontent.com/123365348/214485282-30c8a814-7e1d-4e72-b286-495d90ce2009.png)
 
 
-Day_2
+# Day_2
 Library File
 ![lib](https://user-images.githubusercontent.com/123365348/214485570-1ddadf77-7e35-49c1-a872-13214625165f.png)
 Power cell
