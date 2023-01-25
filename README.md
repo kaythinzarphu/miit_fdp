@@ -19,6 +19,8 @@ Power cell
 Compare and2.0 and and2_1
 ![and 2_1](https://user-images.githubusercontent.com/123365348/214486117-b7110c5c-e6c6-41cb-9ccf-63d8b97e175c.png)
 ![and2 0](https://user-images.githubusercontent.com/123365348/214486124-cfdf4f2f-cbb8-421b-9375-8089fd4bf3ae.png)
-module_v![module](https://user-images.githubusercontent.com/123365348/214491841-546419f5-5d89-4dce-83d7-514c8a295a3b.png)
+module_v!
+[module](https://user-images.githubusercontent.com/123365348/214492324-83ac7bda-e77b-4f03-b501-0e49a6337139.png)
 read_liberty
-![Read Library](https://user-images.githubusercontent.com/123365348/214491928-9ff7f89b-5ebb-4e03-9a4f-478e9a781a43.png)
+![Read Library](https://user-images.githubusercontent.com/123365348/214491928-9ff7f89b-5ebb-4e03-9a4f-478e9a781a43.png)!
+
