@@ -9,3 +9,16 @@
 ![good_mux](https://user-images.githubusercontent.com/123365348/214485251-26ebd05e-ce42-4974-903b-d2101b61d939.png)
 ![terminal_1](https://user-images.githubusercontent.com/123365348/214485268-9fef908a-8c67-45c2-90f2-45ef04958a52.png)
 ![verilog_ls](https://user-images.githubusercontent.com/123365348/214485282-30c8a814-7e1d-4e72-b286-495d90ce2009.png)
+
+
+Day_2
+Library File
+![lib](https://user-images.githubusercontent.com/123365348/214485570-1ddadf77-7e35-49c1-a872-13214625165f.png)
+Power cell
+![cell](https://user-images.githubusercontent.com/123365348/214485714-36269a6a-aed7-45a7-8a98-3acb9a42e5cc.png)
+Compare and2.0 and and2_1
+![and 2_1](https://user-images.githubusercontent.com/123365348/214486117-b7110c5c-e6c6-41cb-9ccf-63d8b97e175c.png)
+![and2 0](https://user-images.githubusercontent.com/123365348/214486124-cfdf4f2f-cbb8-421b-9375-8089fd4bf3ae.png)
+module_v![module](https://user-images.githubusercontent.com/123365348/214491841-546419f5-5d89-4dce-83d7-514c8a295a3b.png)
+read_liberty
+![Read Library](https://user-images.githubusercontent.com/123365348/214491928-9ff7f89b-5ebb-4e03-9a4f-478e9a781a43.png)
