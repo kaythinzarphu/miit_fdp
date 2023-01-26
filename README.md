@@ -69,3 +69,7 @@ Figure opt_check
  
  The synthesized for ternary operataor
 ![image](https://user-images.githubusercontent.com/123365348/214811876-0fcc9490-dcfb-4e91-a902-fd0e8ef2b0f4.png)
+
+ waveform of RTL simulation using gtkwave
+![image](https://user-images.githubusercontent.com/123365348/214814026-be503c73-3bc1-495b-ad8c-49318af7cbd0.png)
+
