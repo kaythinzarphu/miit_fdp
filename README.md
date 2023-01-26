@@ -35,4 +35,7 @@ read_liberty
 Figure opt_check
 ![opt_check](https://user-images.githubusercontent.com/123365348/214755710-e29d058c-b009-47b1-a055-f0e9d0d4ee06.png)
 
+  # Example2 opt_check2.v
+  
+  ![image](https://user-images.githubusercontent.com/123365348/214756187-fc568f3e-e162-49d6-a2ad-f89a02330b9b.png)
 
