@@ -72,4 +72,9 @@ Figure opt_check
 
  waveform of RTL simulation using gtkwave
 ![image](https://user-images.githubusercontent.com/123365348/214814026-be503c73-3bc1-495b-ad8c-49318af7cbd0.png)
+![bad_mux fig](https://user-images.githubusercontent.com/123365348/214817244-c30044e2-c03d-427a-b5f0-04f63f523c3a.PNG)
+![bad_mux module](https://user-![blocking fig](https://user-images.githubusercontent.com/123365348/214817273-2be6ac4c-7fb8-4045-9ed8-203b35875dcc.PNG)
+images.githubusercontent.com/123365348/214817252-7a9f5a52-8127-4b51-9c3b-6d21ee1d9687.PNG)
+
+
 
