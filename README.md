@@ -40,3 +40,15 @@ Figure opt_check
   ![image](https://user-images.githubusercontent.com/123365348/214756187-fc568f3e-e162-49d6-a2ad-f89a02330b9b.png)
   Condition a is ture ,uing OR gate the output y = a + b
 ![image](https://user-images.githubusercontent.com/123365348/214757040-fba5ed0e-cb90-4930-b9f2-d7a3d32ff399.png)
+
+
+    # Example3 opt_check3.v
+    ![image](https://user-images.githubusercontent.com/123365348/214757498-9eaca7b5-af17-41b4-ba8a-ba6d54fc486c.png)
+   If condition a is ture, c is process and conditon c is ture b is contiue
+   ![image](https://user-images.githubusercontent.com/123365348/214757922-fdd6acb0-bf35-4125-ab39-b524a5e132a8.png)
+    
+    
+    # Example4 opt_check4.v
+    ![image](https://user-images.githubusercontent.com/123365348/214757795-f3c2ed36-8acc-42b6-962a-62abb1ce7cec.png)
+
+  ![image](https://user-images.githubusercontent.com/123365348/214758323-8bcc7b54-6e5f-4817-aa59-1c581fee6591.png)
