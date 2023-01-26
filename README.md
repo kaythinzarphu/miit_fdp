@@ -38,4 +38,5 @@ Figure opt_check
   # Example2 opt_check2.v
   
   ![image](https://user-images.githubusercontent.com/123365348/214756187-fc568f3e-e162-49d6-a2ad-f89a02330b9b.png)
-
+  Condition a is ture ,uing OR gate the output y = a + b
+![image](https://user-images.githubusercontent.com/123365348/214757040-fba5ed0e-cb90-4930-b9f2-d7a3d32ff399.png)
