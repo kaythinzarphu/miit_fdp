@@ -66,3 +66,6 @@ Figure opt_check
   ![ternary_operator](https://user-images.githubusercontent.com/123365348/214810495-7eecb949-3d46-42f1-8d37-1293feb3cc9a.PNG)
   
  ![gtkwave ternary](https://user-images.githubusercontent.com/123365348/214810636-8b90b15b-11b7-4529-b63d-03ae1f6fed97.PNG)
+ 
+ The synthesized for ternary operataor
+![image](https://user-images.githubusercontent.com/123365348/214811876-0fcc9490-dcfb-4e91-a902-fd0e8ef2b0f4.png)
