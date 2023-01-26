@@ -52,3 +52,12 @@ Figure opt_check
     ![opt_check4](https://user-images.githubusercontent.com/123365348/214759567-1db8a785-9ce3-4611-a2b6-841b34e6a36a.png)
   
   ![image](https://user-images.githubusercontent.com/123365348/214758323-8bcc7b54-6e5f-4817-aa59-1c581fee6591.png)
+
+  # Example5 multiple_module_opt.v
+  ![Multiple_Module_opt](https://user-images.githubusercontent.com/123365348/214761132-2ad1d879-11d6-47cb-810d-1816f771e4ad.PNG)
+  ![Multiple_Module_opt_fig](https://user-images.githubusercontent.com/123365348/214761135-7f1aa663-18f8-4490-b481-90085d8d15da.PNG)
+  ![Multiple_Module_opt2_fig](https://user-images.githubusercontent.com/123365348/214761153-36c85744-febf-49f2-b9f9-96fb55677a98.PNG)
+
+  
+  
+
