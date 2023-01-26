@@ -25,3 +25,8 @@ read_liberty
 ![Read Library](https://user-images.githubusercontent.com/123365348/214491928-9ff7f89b-5ebb-4e03-9a4f-478e9a781a43.png)!
 
 ![image](https://user-images.githubusercontent.com/123365348/214538039-067294a4-84a6-4278-b37f-e68583fd9aa7.png)
+
+
+#Day3
+    #Example1 opt_check.v
+    <img width="919" alt="Screen Shot 2023-01-26 at 9 50 24 AM" src="https://user-images.githubusercontent.com/123365348/214751776-1d5f7a3c-d90c-4fec-bfb3-fc9ed90108c8.png">
