@@ -30,4 +30,5 @@ read_liberty
 # Day3
     # Example1 opt_check.v
     
-    <img width="919" alt="Screen Shot 2023-01-26 at 9 50 24 AM" src="https://user-images.githubusercontent.com/123365348/214751776-1d5f7a3c-d90c-4fec-bfb3-fc9ed90108c8.png">
+<img width="919" alt="Screen Shot 2023-01-26 at 9 50 24 AM" src="https://user-images.githubusercontent.com/123365348/214753988-40c49095-b31c-46be-9611-8e0ed86f2235.png">
+
