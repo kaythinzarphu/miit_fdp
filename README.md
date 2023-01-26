@@ -60,4 +60,9 @@ Figure opt_check
 
   
   
+# Day4
 
+  # A mux designed with ternary operator
+  ![ternary_operator](https://user-images.githubusercontent.com/123365348/214810495-7eecb949-3d46-42f1-8d37-1293feb3cc9a.PNG)
+  
+ ![gtkwave ternary](https://user-images.githubusercontent.com/123365348/214810636-8b90b15b-11b7-4529-b63d-03ae1f6fed97.PNG)
