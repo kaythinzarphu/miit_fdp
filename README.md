@@ -84,3 +84,42 @@ Figure opt_check
 # Day_5
 Incomplete if condition for gtkwave
 
+
+<img width="805" alt="Screen Shot 2023-01-29 at 8 27 13 PM" src="https://user-images.githubusercontent.com/123365348/215331000-10f631b3-69c2-4dea-82b1-4efcc5326309.png">
+
+using yosys for the incomplete if condition
+
+<img width="805" alt="Screen Shot 2023-01-29 at 8 27 13 PM" src="https://user-images.githubusercontent.com/123365348/215331069-56908f33-b1b8-48ca-ae0b-90f4ad0f63b7.png">
+
+
+ gtkwave form for 4 inputs: 2 inputs and 2 conditioonal inputs of incomplete if conditon
+ 
+
+<img width="805" alt="Screen Shot 2023-01-29 at 8 27 13 PM" src="https://user-images.githubusercontent.com/123365348/215331347-333e8f85-9c16-4b52-b64e-be1b47a70322.png">
+
+
+
+The result figure is showed with yosys
+<img width="825" alt="Screen Shot 2023-01-29 at 8 35 50 PM" src="https://user-images.githubusercontent.com/123365348/215331472-355a249a-7da1-4be6-a116-a2a69e7b7ec6.png">
+
+incmplete Case with yosys
+<img width="827" alt="Screen Shot 2023-01-29 at 8 36 39 PM" src="https://user-images.githubusercontent.com/123365348/215331725-c51d779a-5c21-4eb0-ae75-c7d8815c6a49.png">
+
+
+The complete case showed as the following
+
+<img width="791" alt="Screen Shot 2023-01-29 at 8 38 19 PM" src="https://user-images.githubusercontent.com/123365348/215331790-729031b2-0120-4711-abe0-79880d3de036.png">
+
+
+Partial Case figure
+
+
+<img width="791" alt="Screen Shot 2023-01-29 at 8 39 23 PM" src="https://user-images.githubusercontent.com/123365348/215331850-b84ed3e0-87c8-4547-8417-3203be67f11e.png">
+
+<img width="787" alt="Screen Shot 2023-01-29 at 8 40 10 PM" src="https://user-images.githubusercontent.com/123365348/215331896-ef95b423-d75f-45ef-b6ce-31088bc1c9ff.png">
+
+
+<img width="786" alt="Screen Shot 2023-01-29 at 8 40 49 PM" src="https://user-images.githubusercontent.com/123365348/215332069-50e90e46-7596-48f8-8b99-0591c527fa55.png">
+
+
+
