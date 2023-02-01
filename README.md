@@ -150,6 +150,29 @@ Partial Case figure
 ![image](https://user-images.githubusercontent.com/123365348/215937987-602d73a6-c5a4-4021-8b55-324d61c5167a.png)
 
 
+# Day 7
+
+  # show lib.ref 
+![image](https://user-images.githubusercontent.com/123365348/215988814-fd9b51f7-9abd-4820-8eaf-231548f37e38.png)
+
+![image](https://user-images.githubusercontent.com/123365348/215988833-3377575d-520b-44df-afd0-4a7e9482fa98.png)
+
+  # lib.tech 
+  ![image](https://user-images.githubusercontent.com/123365348/215989029-92540884-0004-4ea6-8808-7d476bd49d9c.png)
+  
+  # Merging
+  ![image](https://user-images.githubusercontent.com/123365348/215989209-90a6c6ff-84ca-450f-af4b-bd6c8cc92461.png)
+  
+  ![image](https://user-images.githubusercontent.com/123365348/215989224-161b480c-3387-4bd3-95b7-51318a9cefd9.png)
+
+  ![image](https://user-images.githubusercontent.com/123365348/215989322-002360b5-6b70-4145-ac79-a8b1aa28a0c5.png)
+  
+  # Add Design
+![image](https://user-images.githubusercontent.com/123365348/215989371-f382fd39-f0e0-4081-9885-472c411c8dc4.png)
+
+
+![image](https://user-images.githubusercontent.com/123365348/215989449-f6fbd6a0-be85-4c74-894a-85b4fce253e9.png)
+
 
 
 
