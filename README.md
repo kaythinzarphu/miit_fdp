@@ -126,4 +126,33 @@ Partial Case figure
 <img width="786" alt="Screen Shot 2023-01-29 at 8 40 49 PM" src="https://user-images.githubusercontent.com/123365348/215332069-50e90e46-7596-48f8-8b99-0591c527fa55.png">
 
 
+# Day 6
+
+![image](https://user-images.githubusercontent.com/123365348/215937119-904b7d8d-0ef8-4004-8636-0b3d380317c9.png)
+![image](https://user-images.githubusercontent.com/123365348/215937138-c295089d-4905-4441-a152-2b4f440810a4.png)
+![image](https://user-images.githubusercontent.com/123365348/215937160-06e378b4-a868-4572-a38c-22f4dbf31bf7.png)
+![image](https://user-images.githubusercontent.com/123365348/215937183-e126c63c-0dcf-4854-b597-bb0fa1bae2d6.png)
+![image](https://user-images.githubusercontent.com/123365348/215937217-d00ea065-b911-495a-947e-6a673ddf14e6.png)
+![image](https://user-images.githubusercontent.com/123365348/215937248-f3e4f272-bae6-40e4-9461-4d23497a56d3.png)
+![image](https://user-images.githubusercontent.com/123365348/215937277-fd4683fb-2128-4c2c-b24d-55810ac88d83.png)
+![image](https://user-images.githubusercontent.com/123365348/215937307-db4f2b20-c36f-4500-a6c2-b1b980b2256d.png)
+![image](https://user-images.githubusercontent.com/123365348/215937347-91103f45-0d27-4b52-a0d0-e5fb5141d704.png)
+
+
+![image](https://user-images.githubusercontent.com/123365348/215937598-4b6443af-6d09-4d65-906f-8ec283da3b2e.png)
+![image](https://user-images.githubusercontent.com/123365348/215937644-5a1fd398-b1cc-431f-ab16-f319d5b9d7a5.png)
+
+![image](https://user-images.githubusercontent.com/123365348/215937663-64aa98be-b3bb-40a1-bfdd-218bbce2e4ff.png)
+![image](https://user-images.githubusercontent.com/123365348/215937932-a9e08fca-f7a1-4e53-b799-9a506fa9e0d7.png)
+
+
+![image](https://user-images.githubusercontent.com/123365348/215937966-bdf08d31-49c0-48a2-be62-27827815e6c5.png)
+![image](https://user-images.githubusercontent.com/123365348/215937987-602d73a6-c5a4-4021-8b55-324d61c5167a.png)
+
+
+
+
+
+
+
 
