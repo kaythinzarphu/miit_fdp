@@ -157,6 +157,40 @@ Partial Case figure
   # Prepared Design
   ![image](https://user-images.githubusercontent.com/123365348/216225497-4b7cf8d5-3618-4eba-9c00-0e3136b9b6ba.png)
 
+![image](https://user-images.githubusercontent.com/123365348/216226243-767c9633-1481-4952-b8b9-74433ee34800.png)
+
+![image](https://user-images.githubusercontent.com/123365348/216226801-cc1cc3c7-aa91-4df6-9b1a-2cbbbb7c3ef6.png)
+![image](https://user-images.githubusercontent.com/123365348/216226996-de58ec06-9723-49dc-8c05-b9d55560f65f.png)
+
+cd tmp
+less merged.lef
+
+![image](https://user-images.githubusercontent.com/123365348/216228904-243c286c-1524-4b52-8031-bccb4c48131b.png)
+
+cd ../
+clear
+cd results
+![image](https://user-images.githubusercontent.com/123365348/216229126-3e6a90c5-774f-4d99-8e74-3d5897fccb12.png)
+
+cd ../
+cd reprots
+ls -ltr
+![image](https://user-images.githubusercontent.com/123365348/216229418-3fa46a2b-1521-445b-8991-673cf756f102.png)
+
+cd ../
+less config.tcl
+![image](https://user-images.githubusercontent.com/123365348/216229603-3c118c96-fbd4-42f2-9570-357dfde7b0f4.png)
+less cmds.log
+![image](https://user-images.githubusercontent.com/123365348/216229689-461d8c35-ef4c-4409-81af-0600eb69a57f.png)
+
+%run_synthesis
+![image](https://user-images.githubusercontent.com/123365348/216229981-f2762adb-9621-4e83-b9c3-6a788a6a67c0.png)
+
+less picorv32a.synthesis.v
+![image](https://user-images.githubusercontent.com/123365348/216235244-8acc6f0e-0a02-4070-b727-eb9b6cf2a160.png)
+
+
+![image](https://user-images.githubusercontent.com/123365348/216235322-d6ae2979-2837-403e-8a81-7d197a6afad9.png)
 
 
 
