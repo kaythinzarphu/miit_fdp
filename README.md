@@ -193,7 +193,17 @@ less picorv32a.synthesis.v
 ![image](https://user-images.githubusercontent.com/123365348/216235513-15765fdc-373b-4700-a488-30a704ad926f.png)
 
 
+# Good floorplanning Vs Bad floorplanning and introduction to library cells
 
+  Configuration openlane
+![image](https://user-images.githubusercontent.com/123365348/216237424-afc6d1c2-6fba-4585-96ca-de667ccbed27.png)
+
+less README.md 
+![image](https://user-images.githubusercontent.com/123365348/216238078-0cb51d63-4a71-41b2-8eb0-3e2b1fbf6695.png)
+
+less floorplan.tcl
+
+![image](https://user-images.githubusercontent.com/123365348/216237944-73895b22-d4b5-4984-805d-004da4bbac13.png)
 
 
 
