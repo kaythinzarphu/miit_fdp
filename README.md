@@ -154,6 +154,8 @@ Partial Case figure
 
  ![image](https://user-images.githubusercontent.com/123365348/216224286-7692e544-e931-47fb-9e35-94b2c5bd8641.png)
 
+  # Prepared Design
+  ![image](https://user-images.githubusercontent.com/123365348/216225497-4b7cf8d5-3618-4eba-9c00-0e3136b9b6ba.png)
 
 
 
