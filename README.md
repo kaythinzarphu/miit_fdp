@@ -210,3 +210,26 @@ less floorplan.tcl
 run_floorplan
 ![image](https://user-images.githubusercontent.com/123365348/216239163-448fad5d-173b-4c13-b9d7-f1499894ef11.png)
 
+less config.tcl
+
+![image](https://user-images.githubusercontent.com/123365348/216251516-4a7979d4-1a92-4ade-b417-e132c0383863.png)
+
+
+less sky130A_sky130_fd_sc_hd_config.tcl
+![image](https://user-images.githubusercontent.com/123365348/216253043-9900e0af-68bd-4ec9-86ef-5bb1ce278aeb.png)
+
+
+less picorv32a.floorplan.def
+
+![image](https://user-images.githubusercontent.com/123365348/216253351-ba8597a7-4ffc-4c43-9975-b993235ef437.png)
+
+
+The actual layout
+![image](https://user-images.githubusercontent.com/123365348/216256295-725a5f3a-003e-44b4-a6aa-442d5e223cf2.png)
+
+
+%run_placement
+![image](https://user-images.githubusercontent.com/123365348/216260263-da98c0f5-d62d-4160-a982-87df62ad1977.png)
+
+
+
