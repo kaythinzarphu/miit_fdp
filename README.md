@@ -150,7 +150,7 @@ Partial Case figure
 ![image](https://user-images.githubusercontent.com/123365348/215937987-602d73a6-c5a4-4021-8b55-324d61c5167a.png)
 
 
-# Day 7
+# Advance Physical Design using OpenLANE/Sky130
 
  ![image](https://user-images.githubusercontent.com/123365348/216224286-7692e544-e931-47fb-9e35-94b2c5bd8641.png)
 
