@@ -190,7 +190,8 @@ less picorv32a.synthesis.v
 ![image](https://user-images.githubusercontent.com/123365348/216235244-8acc6f0e-0a02-4070-b727-eb9b6cf2a160.png)
 
 
-![image](https://user-images.githubusercontent.com/123365348/216235322-d6ae2979-2837-403e-8a81-7d197a6afad9.png)
+![image](https://user-images.githubusercontent.com/123365348/216235513-15765fdc-373b-4700-a488-30a704ad926f.png)
+
 
 
 
