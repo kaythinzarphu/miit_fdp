@@ -203,8 +203,8 @@ less README.md
 
 less floorplan.tcl
 
-![image](https://user-images.githubusercontent.com/123365348/216237944-73895b22-d4b5-4984-805d-004da4bbac13.png)
 
+![image](https://user-images.githubusercontent.com/123365348/216238253-d8c74b2d-512a-4705-908a-29ada48373b5.png)
 
 
 
