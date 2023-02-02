@@ -207,4 +207,6 @@ less floorplan.tcl
 ![image](https://user-images.githubusercontent.com/123365348/216238253-d8c74b2d-512a-4705-908a-29ada48373b5.png)
 
 
+run_floorplan
+![image](https://user-images.githubusercontent.com/123365348/216239163-448fad5d-173b-4c13-b9d7-f1499894ef11.png)
 
