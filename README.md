@@ -265,3 +265,7 @@ magic -T//home/kaythinzarphu/Desktop/work/tools/openlane_working_dir/pdks/sky130
 
 
  # Day 3 -Design library cells using Magic Layout and ngspice characterization
+ For checking the swithes in the configuration of floorplan.tcl
+ The syntax "env(FP_IO_MODE) 1". and make it to the "env(FP_IO_MODE) 2".
+ ![imagen](https://user-images.githubusercontent.com/123365348/216570075-d21c6e9c-abd3-450d-adcc-0b3a014b7dad.png)
+
