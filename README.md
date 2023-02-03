@@ -232,4 +232,4 @@ The actual layout
 ![image](https://user-images.githubusercontent.com/123365348/216260263-da98c0f5-d62d-4160-a982-87df62ad1977.png)
 
 
-
+ # Day 3 -Design library cells using Magic Layout and ngspice characterization
