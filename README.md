@@ -269,3 +269,8 @@ magic -T//home/kaythinzarphu/Desktop/work/tools/openlane_working_dir/pdks/sky130
  The syntax "env(FP_IO_MODE) 1". and make it to the "env(FP_IO_MODE) 2".
  ![imagen](https://user-images.githubusercontent.com/123365348/216570075-d21c6e9c-abd3-450d-adcc-0b3a014b7dad.png)
 
+
+ write set::env(FP_IO_MODE) 2 in docker and run magic -T/.../picorv32a.floorplan.def in another terminal
+ ![imagen](https://user-images.githubusercontent.com/123365348/216578344-7a067679-a2f5-45ae-bdd8-87cd47f246ef.png)
+
+ 
