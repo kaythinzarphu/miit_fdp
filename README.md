@@ -195,6 +195,14 @@ less picorv32a.synthesis.v
 
 # Good floorplanning Vs Bad floorplanning and introduction to library cells
 
+  # Labs for CMOS inverter 
+    IO placer revison
+    
+    For that first we have to check the swithes in the configuration of floorplan.tcl
+    The syntax "env(FP_IO_MODE) 1". and make it to the "env(FP_IO_MODE) 2".
+    ![imagen](https://user-images.githubusercontent.com/123365348/216569844-660b228c-b2cc-4f42-bdd6-46c9e8e6d244.png)
+
+
   Configuration openlane
 ![image](https://user-images.githubusercontent.com/123365348/216237424-afc6d1c2-6fba-4585-96ca-de667ccbed27.png)
 
