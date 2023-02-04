@@ -294,6 +294,9 @@ magic -T//home/kaythinzarphu/Desktop/work/tools/openlane_working_dir/pdks/sky130
  In terminal,  it is also exctracted
  ![image](https://user-images.githubusercontent.com/123365348/216748841-d30b6c0e-a84d-4201-9abf-fa5ecb173911.png)
 
+Finish 
+ ![image](https://user-images.githubusercontent.com/123365348/216748631-501f474d-0a40-44fa-ac3f-0fa9c8ccaaa8.png)
+
  
  
 # Lab steps to create final SPICE dexk using sky130 tech
@@ -324,7 +327,5 @@ Also add the command from cat sky130, ".tran 1n 20n", ".control" , "run",".endc"
 
 
  
- Finish 
- ![image](https://user-images.githubusercontent.com/123365348/216748631-501f474d-0a40-44fa-ac3f-0fa9c8ccaaa8.png)
-
+ 
 
