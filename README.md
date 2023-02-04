@@ -318,9 +318,29 @@ Also add the command from cat sky130, ".tran 1n 20n", ".control" , "run",".endc"
 
 
 ![image](https://user-images.githubusercontent.com/123365348/216750595-1fc60ba9-c980-4d64-ac3d-7f6bac733c1a.png)
+After running, the ngspice is produced like as follow
 
 
+![image](https://user-images.githubusercontent.com/123365348/216751407-5448f24c-5bac-4e57-90e8-43c027ebd827.png)
 
+
+plot y vs time a for ngspice 1
+![image](https://user-images.githubusercontent.com/123365348/216751756-a4f04889-d8bf-45db-866f-3d36d359c230.png)
+
+![image](https://user-images.githubusercontent.com/123365348/216752340-4a5702f5-82c8-4fea-893e-a9ec3bba42b6.png)
+
+It is time taken to the output waveform to 20% value to 80% value is raise time 1.4913 nsec.
+
+
+It is the time take by output for transition from 80% to 20% is fall time=0.08745 nsec.
+   
+
+propogation delay is the time difference between the 50% of input and 50% of the output.
+so, propogation delay = 0.60185 nsec.
+
+
+cell fall delay is  falling to 50% and input is rising to 50%
+so, cell fall delay= 0.0778 nsec.
 
 
 
