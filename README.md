@@ -327,7 +327,7 @@ After running, the ngspice is produced like as follow
 plot y vs time a for ngspice 1
 ![image](https://user-images.githubusercontent.com/123365348/216751756-a4f04889-d8bf-45db-866f-3d36d359c230.png)
 
-![image](https://user-images.githubusercontent.com/123365348/216752340-4a5702f5-82c8-4fea-893e-a9ec3bba42b6.png)
+
 
 It is time taken to the output waveform to 20% value to 80% value is raise time 1.4913 nsec.
 
