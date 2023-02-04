@@ -274,3 +274,57 @@ magic -T//home/kaythinzarphu/Desktop/work/tools/openlane_working_dir/pdks/sky130
  ![imagen](https://user-images.githubusercontent.com/123365348/216578344-7a067679-a2f5-45ae-bdd8-87cd47f246ef.png)
 
  
+ Copy the tech file from github and applied the magic comand under vsdstdcelldesing as,
+ magic -T sky130A.tech sky130_inv.mag
+ ![image](https://user-images.githubusercontent.com/123365348/216748390-58b7539b-83ac-4b03-8211-6013c9fafd2e.png)
+ 
+ 
+ In tckon window, we see the selected area is NMOS and similarly we can check PMOS 
+  The CMOS is working or not by using what.
+ ![image](https://user-images.githubusercontent.com/123365348/216748661-b723ecd6-88d0-4110-97fd-a97b26a4b909.png)
+ 
+ 
+ Check for the output terminal by double pressing "S" to select the entire thing at output Y
+ 
+ ![image](https://user-images.githubusercontent.com/123365348/216748759-e786974c-a181-4a00-80fd-e596866b0ab9.png)
+ 
+ To extract the file from , the comand  "extract all" is written in tckon window
+ ![image](https://user-images.githubusercontent.com/123365348/216748808-cf7e0cd1-c5ed-4de5-bceb-9637bd21704c.png)
+ 
+ In terminal,  it is also exctracted
+ ![image](https://user-images.githubusercontent.com/123365348/216748841-d30b6c0e-a84d-4201-9abf-fa5ecb173911.png)
+
+ 
+ 
+# Lab steps to create final SPICE dexk using sky130 tech
+  ![image](https://user-images.githubusercontent.com/123365348/216748924-db1ce27e-a83a-40ee-8339-d2b72f6da838.png)
+  
+  box command in tckon window
+ 
+ ![image](https://user-images.githubusercontent.com/123365348/216749332-80352e14-6834-4b36-bee1-aebfc175ab6c.png)
+
+
+Now we add pshor.lib and nshort.lib in the terminal by ".include ./libs/pshort.lib" and ".include ./libs/nshort.lib"
+
+And then, set the supply voltage "VDD" to 3.3v by "VDD VPWR 0 3.3V" comand. and  set the value of VSS also
+
+And alo specify Va A VGND PULSE(0V 3.3V 0 0.1ns 2ns 4ns)
+
+Also add the command from cat sky130, ".tran 1n 20n", ".control" , "run",".endc",".end".
+![image](https://user-images.githubusercontent.com/123365348/216750551-654c521b-e32a-47cd-9870-f761f1779c9d.png)
+
+
+![image](https://user-images.githubusercontent.com/123365348/216750595-1fc60ba9-c980-4d64-ac3d-7f6bac733c1a.png)
+
+
+
+
+
+
+
+
+ 
+ Finish 
+ ![image](https://user-images.githubusercontent.com/123365348/216748631-501f474d-0a40-44fa-ac3f-0fa9c8ccaaa8.png)
+
+
