@@ -394,4 +394,7 @@ vim config.tcl
 
 Now, start the new terminal and open the openlane by docker, make ./flow tcl -interactive and then add the package and then prep design with the privios run by the comand " prep -design pecorv32a -tag [last running time i.e.27-01_17-53] -overwrite".
 
+<img width="1506" alt="Screen Shot 2023-02-05 at 12 05 42 PM" src="https://user-images.githubusercontent.com/123365348/216803608-02762cb2-54e2-404a-81c7-68e3ef44f7ff.png">
+
+
 Then run synthesis  and  maps our  vsd inveter into this flow.
