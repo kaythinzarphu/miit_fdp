@@ -399,3 +399,25 @@ Now, start the new terminal and open the openlane by docker, make ./flow tcl -in
 
 Then run synthesis  and  maps our  vsd inveter into this flow.
 <img width="552" alt="Screen Shot 2023-02-05 at 12 11 04 PM" src="https://user-images.githubusercontent.com/123365348/216803756-d7c713e8-7f79-4cb1-be94-c1bc4a771244.png">
+
+<img width="1512" alt="Screen Shot 2023-02-05 at 6 39 38 PM" src="https://user-images.githubusercontent.com/123365348/216817894-34881d58-5db9-4057-b507-7a71f453b9e5.png">
+
+<img width="1512" alt="Screen Shot 2023-02-05 at 6 40 26 PM" src="https://user-images.githubusercontent.com/123365348/216817925-2817dd7c-df95-4b74-8f7d-9708842d1771.png">
+
+
+# Lab steps to configure synthesis settings to fix slack and include vsdinv
+Open the READme file from the /openlane/configuration/ less READme.md
+
+Now lets try to make balance between area and the delay of the synthesis by changing the stratagy. comand for 
+"echo $::env(SYNTH_STRATEGY)", and  "set ::env(SYMTH_STRATEGY) 1"
+by doing this area will increase the little but but timing will improve.
+
+<img width="1512" alt="Screen Shot 2023-02-05 at 7 13 37 PM" src="https://user-images.githubusercontent.com/123365348/216819733-c8e947f6-ef39-4675-85a1-070644f11de7.png"><img width="1512" alt="Screen Shot 2023-02-05 at 7 13 55 PM" src="https://user-images.githubusercontent.com/123365348/216819738-5c004550-8db6-43da-b142-38ce9ea3d244.png">
+
+
+
+
+Then checking the synth_bufferung and synth_sizing are set 1 as like SYNTH_STRATEGY
+<img width="1512" alt="Screen Shot 2023-02-05 at 7 21 34 PM" src="https://user-images.githubusercontent.com/123365348/216819760-2edff046-4f08-45a1-9997-4dcb1780d54f.png">
+
+<img width="1512" alt="Screen Shot 2023-02-05 at 7 22 15 PM" src="https://user-images.githubusercontent.com/123365348/216819772-81cd4215-63e6-45e7-b4fc-5549e17d705f.png">
