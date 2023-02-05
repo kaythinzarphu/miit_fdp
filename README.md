@@ -344,8 +344,35 @@ so, cell fall delay= 0.0778 nsec.
 
 
 
+# Day 4
+  #Lab steps to convert grid info to track info
+  
+  Write command pdk/sky130/libs.tech /openlane/sky130_fd_sc_hd/  under openlane in terminal
+  less tracks.info
+  
+  Original picture
+<img width="1134" alt="Screen Shot 2023-02-05 at 10 41 05 AM" src="https://user-images.githubusercontent.com/123365348/216801069-e919da51-13bb-4e36-91b2-451232ea2499.png">
 
 
  
- 
+<img width="725" alt="Screen Shot 2023-02-05 at 10 43 09 AM" src="https://user-images.githubusercontent.com/123365348/216801145-31710701-35fd-42e7-b12f-6b2271d84a05.png">
+writing command (0.23 0.46)um horizontaly and (0.17 0.34)um vertically in tkcon window
+<img width="760" alt="Screen Shot 2023-02-05 at 10 45 17 AM" src="https://user-images.githubusercontent.com/123365348/216801191-26dea1a9-e03d-475a-b5af-deec77622c18.png">
+
+
+# Lab steps to convert magic layout to std cell LEF
+As it parameters are set, first give the name to the cell by using tkcon window as sky130_vsdiv.mag
+
+Then open this file
+<img width="738" alt="Screen Shot 2023-02-05 at 10 56 48 AM" src="https://user-images.githubusercontent.com/123365348/216801567-83e95598-983b-4583-9f65-b706dfab3075.png">
+
+
+Write lef write using tkcon window
+<img width="966" alt="Screen Shot 2023-02-05 at 10 58 31 AM" src="https://user-images.githubusercontent.com/123365348/216801606-02ee4fd7-5e86-4e54-a017-311faba02480.png">
+Open les file in terminal
+
+<img width="742" alt="Screen Shot 2023-02-05 at 11 01 13 AM" src="https://user-images.githubusercontent.com/123365348/216801675-c7cce7c7-c8fb-4be2-b8cb-5022f6a194b9.png">
+
+Now, lef file is created and now next step is plug this lef file in picorv32a.
+All files are moved to src folder at one location by 'cp' comand
 
