@@ -390,6 +390,7 @@ copy slow,fast and typical into picorv32a
 write command cd ../
 vim config.tcl
 
+<img width="726" alt="Screen Shot 2023-02-05 at 11 51 04 AM" src="https://user-images.githubusercontent.com/123365348/216803153-5164f160-4ab8-48e0-a561-c00a4f78f505.png">
 
 Now, start the new terminal and open the openlane by docker, make ./flow tcl -interactive and then add the package and then prep design with the privios run by the comand " prep -design pecorv32a -tag [last running time i.e.27-01_17-53] -overwrite".
 
