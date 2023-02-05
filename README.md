@@ -376,3 +376,9 @@ Open les file in terminal
 Now, lef file is created and now next step is plug this lef file in picorv32a.
 All files are moved to src folder at one location by 'cp' comand
 
+<img width="721" alt="Screen Shot 2023-02-05 at 11 27 23 AM" src="https://user-images.githubusercontent.com/123365348/216802461-205cc871-d9c9-4ccf-acde-791aa606f1e2.png">
+<img width="724" alt="Screen Shot 2023-02-05 at 11 28 11 AM" src="https://user-images.githubusercontent.com/123365348/216802541-76f3c285-50a2-4d03-8a99-263dcf88ca2b.png">
+
+
+<img width="738" alt="Screen Shot 2023-02-05 at 11 25 48 AM" src="https://user-images.githubusercontent.com/123365348/216802421-57843158-413a-4687-a85c-18d7d7f5bbab.png">
+
