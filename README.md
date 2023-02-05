@@ -421,3 +421,9 @@ Then checking the synth_bufferung and synth_sizing are set 1 as like SYNTH_STRAT
 <img width="1512" alt="Screen Shot 2023-02-05 at 7 21 34 PM" src="https://user-images.githubusercontent.com/123365348/216819760-2edff046-4f08-45a1-9997-4dcb1780d54f.png">
 
 <img width="1512" alt="Screen Shot 2023-02-05 at 7 22 15 PM" src="https://user-images.githubusercontent.com/123365348/216819772-81cd4215-63e6-45e7-b4fc-5549e17d705f.png">
+
+write command run_placement 
+show picorv32a.placement.def
+
+
+<img width="1512" alt="Screen Shot 2023-02-05 at 7 32 12 PM" src="https://user-images.githubusercontent.com/123365348/216821124-594a3232-7650-40ae-a465-591a0442882b.png">
