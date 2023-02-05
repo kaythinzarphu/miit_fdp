@@ -383,6 +383,13 @@ All files are moved to src folder at one location by 'cp' comand
 <img width="738" alt="Screen Shot 2023-02-05 at 11 25 48 AM" src="https://user-images.githubusercontent.com/123365348/216802421-57843158-413a-4687-a85c-18d7d7f5bbab.png">
 
 # Introduction to timing libs and steps to include new cell synthesis
+copy slow,fast and typical into picorv32a 
+
+<img width="726" alt="Screen Shot 2023-02-05 at 11 48 57 AM" src="https://user-images.githubusercontent.com/123365348/216803096-7c49e76b-03f2-4069-9977-b8f9d406f127.png">
+
+write command cd ../
+vim config.tcl
+
 
 Now, start the new terminal and open the openlane by docker, make ./flow tcl -interactive and then add the package and then prep design with the privios run by the comand " prep -design pecorv32a -tag [last running time i.e.27-01_17-53] -overwrite".
 
