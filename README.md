@@ -467,4 +467,31 @@ With real clock, circuit looks littel bit different then ideal clock. Here the b
 Here, due to buffer, clock signals are not reaching the flop at t=0. it will reach at t=0+(delay of buffer 1 and 2).
 Now change to (θ+1+2)<(T+1+3+4)
 
+# Final steps to build power distribution network
+  Lab steps to build power distribution network
+  
+  docker
+
+./flow.tcl -interactive
+
+package require openlane 0.9
+
+prep -design picorv32a -tag [run file name i.e., 20-01_22-23]
+
+Now to check the command is:"echo $::env(CURRENT_DEF)".
+
+So, till now we have done CTS and now we are going to do the routing.
+command is: "gen_pdn"
+![image](https://user-images.githubusercontent.com/123365348/216883043-83b7df93-3673-4514-8a3b-4f3a462fc8c1.png)
+
+# Basic and Global detailed routing and configure TritonRoute
+
+"runs/29-01_22-23/tem/floorplan/pdn.def"
+The routing process is very complex.So, total routing is devided into two part.
+
+Fast route (Global route)
+
+Detailed route
+![image](https://user-images.githubusercontent.com/123365348/216883161-55043d8b-8d7b-461a-b3c7-a16f9abc1ec3.png)
+
 
