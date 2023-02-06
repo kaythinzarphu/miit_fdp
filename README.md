@@ -494,4 +494,91 @@ Fast route (Global route)
 Detailed route
 ![image](https://user-images.githubusercontent.com/123365348/216883161-55043d8b-8d7b-461a-b3c7-a16f9abc1ec3.png)
 
+Now, the routing is successfully done
+![image](https://user-images.githubusercontent.com/123365348/216883272-76c0c7c5-4a56-4df4-abff-db5e27a86f71.png)
+
+
+# Tritinroute features
+  # TritonRoute feature 1 -Honors pre-processed route guid
+
+
+
+It performs initial detail route.
+
+It attempts as much as possible to route within route guides.
+
+requierment of processed guides are 1)should have within unit lenth 2)should be in the preferred direction.
+
+![image](https://user-images.githubusercontent.com/123365348/216883369-edd55a18-8564-41c6-9307-2500a1494317.png)
+
+
+Assumes route guides for each net satisfy inter-guide connectivity.
+
+If two guides are connected then 1) they are on the same metal layer with touching edges. 2) they are on the neighbouring metal layers with a nonzero vertically overlapped area.
+
+Assumes route guides for each net satisfy inter-guide connectivity.
+![image](https://user-images.githubusercontent.com/123365348/216883384-9d9a55be-3c25-45a9-90b5-6659caf16365.png)
+
+
+# TritonRoute feature 2 & 3 - inter-guide connectivity and intra-layer & inter -layer routing
+
+Each unconnected terminal. i.e, poin of a standerd-cell instance should have its pin shape overlapped by a route guide.
+
+![image](https://user-images.githubusercontent.com/123365348/216883434-5ce08cf3-d8c6-4305-a84a-c42b91293328.png)
+
+# Intra-layer parallel and inter-layer sequential panel routing
+![image](https://user-images.githubusercontent.com/123365348/216883481-345909b1-ff2d-4c7f-a8cf-60b643726b80.png)
+
+# TritonbRoute method to handle connectivity
+INPUTS: LEF
+
+OUTPUTS:detailed routing solution with optimized wore-length and via count
+
+CONSTRAINTS:Route guide honouring, connectivity constraonts and design rukes
+
+Now we have to defined the space where detailed routing take spaced
+
+# Handling connectivity
+![image](https://user-images.githubusercontent.com/123365348/216883589-244184e0-e2a8-4a90-beac-3621e0b8eecd.png)
+
+# To handle the connectivity, two concepts comes into the picture
+Access point:An on-gride point on the metal layer of the route guide, and is used to connect to lower-layer segments, upper-layer segments, pins or IO ports.
+
+Access point cluster (APC): A union of all access points derived from same lower-layer segment,upper-layer guide, a pin or an IO port
+
+The figure is shown as above, the illustration of access points:
+
+(a)To a lower-layer segment
+
+(b)To a pin shape
+
+(c)To upper layer
+
+# Routing topology algorithm and final files list post-route
+![image](https://user-images.githubusercontent.com/123365348/216883757-dcef9be2-4f19-4e69-9815-3bf7264d0128.png)
+
+
+The algorithm says that for each APCs we have to find the cost associated with it and we have to do minimum spaning tree betweem the APCs and the cost. finally the conclusion of the algorithm is that we have to find the minimul and the most optimal poits between two APCs.
+
+Now, remaning things is the post routing STA analysis. for that the first goal is to extract the perasetic (SPEF). This SPEF extraction is done outside the openlane because openlane does not have SPEF extraction tool.
+
+The .spef file can be found under the routing folder under the results folder
+
+![image](https://user-images.githubusercontent.com/123365348/216883818-23514aed-e3cd-425b-b89a-829c1f5c9e46.png)
+
+The following command can be used to stream in the generated GDSII file.
+
+"run_magic"
+
+Now the gds file will be generated and it is stored in the magic folder under results folder
+
+![image](https://user-images.githubusercontent.com/123365348/216883853-fbae41e1-464b-4dc9-b57d-0935fd19c45d.png)
+
+
+And the generated layout is,
+![image](https://user-images.githubusercontent.com/123365348/216883902-2d2f6076-9159-47f6-a870-fdcf48086039.png)
+
+
+
+
 
