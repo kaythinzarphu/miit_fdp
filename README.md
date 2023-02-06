@@ -419,6 +419,7 @@ by doing this area will increase the little but but timing will improve.
 
 Then checking the synth_bufferung and synth_sizing are set 1 as like SYNTH_STRATEGY
 <img width="1512" alt="Screen Shot 2023-02-05 at 7 21 34 PM" src="https://user-images.githubusercontent.com/123365348/216819760-2edff046-4f08-45a1-9997-4dcb1780d54f.png">
+![image](https://user-images.githubusercontent.com/123365348/216884240-f9a0f323-c22a-4a24-b60e-c16abe5c814b.png)
 
 <img width="1512" alt="Screen Shot 2023-02-05 at 7 22 15 PM" src="https://user-images.githubusercontent.com/123365348/216819772-81cd4215-63e6-45e7-b4fc-5549e17d705f.png">
 
@@ -459,6 +460,9 @@ Then checking the max cap value, by command : "echo $::env(CTS_MAX_CAP)". and it
 Now checking the branch buffer cells by command :"echo $::env(CTS_CLK_BUFFER_LIST)". and these are the buffer cells are listed there "sky130_fd_sc_hd__clkbuf_1 sky130_fd_sc_hd__clkbuf_2 sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_8".
 
 And last cheching the root buffer by command: "echo $::env(CTS_ROOT_BUFFER)". So, we find that this "sky130_fd_sc_hd__clkbuf_16 " buffer is root buffer.
+![image](https://user-images.githubusercontent.com/123365348/216884300-f8090ab2-dcd2-4786-b5e3-ce2d459aed57.png)
+
+![image](https://user-images.githubusercontent.com/123365348/216884390-8222949c-4c5b-4f59-9bb3-35d0913ade57.png)
 
 
 # Timing analysis with real clocks using openSTA
@@ -466,6 +470,66 @@ With real clock, circuit looks littel bit different then ideal clock. Here the b
 
 Here, due to buffer, clock signals are not reaching the flop at t=0. it will reach at t=0+(delay of buffer 1 and 2).
 Now change to (θ+1+2)<(T+1+3+4)
+
+# Hold time analysis with real clock
+
+Lab steps to analyze timing with real clock using OpenSTA
+
+let's open the OPENROAD tool in the flow by "openroad" command.
+
+our objective is to do analysis of the clock tree.
+
+we are analysin this in the OpenROAD because OpenSTA is already built in the OpenROAD. In OpenROAD the timing analysis is done in a different way. first we have to create "db" and "db" is created in a "lef" and "def" file.
+
+Now let's create the DB. To create the DB, first we have to read the lrf file by comand "% read_lef /openLANE_flow/designs/picorv32a/runs/29-01_22-23/tmp/merged.lef".
+
+Then we read the "def" file by command: "read_def /openLANE_flow/designs/picorv32a/runs/29-01_22-23/results/cts/picorv32a.cts.def".
+
+NOw to create the DB write the command "write_db pico_cts.db"
+
+NOW read this db file by command "read_db pico_cts.db"
+
+then read the verilog file by applying the command "read_verilog /openLANE_flow/designs/picorv32a/runs/29-01_22-23/results/synthesis/picorv32a.synthesis_cts.v"
+
+then read the library (max) by this command:"read_liberty -max $::env(LIB_FASTEST)".
+
+similarly read the library (min) by this command: "read_liberty -min $::env(LIB_SLOWEST)".
+
+Now read the sdc file by this command: "read_sdc /openLANE_flow/designs/picorv32a/src/my_base.sdc"
+
+now set the clocks by this command:"set_propagated_clock [all_clocks]"
+
+there reports the checks by this
+
+command: "report_checks -path_delay min_max -format full_clock_expanded -digits 4".
+
+so after running this we can see that the slack is positive for hold and setup both. and also we can notice the data required time and data arroval time also.
+
+So, the Hold slack = 1.4336nsec because here we can see that (arrivel time) >(required time)
+
+![image](https://user-images.githubusercontent.com/123365348/216884716-68c7dbf8-71cb-4c8a-b82d-2c3a695aaf12.png)
+
+# Lab steps to execute openSTA with right timing libraries and CTS assignment
+
+read_db pico_cts.db
+
+read_verilog /openLANE_flow/designs/picorv32a/runs/29-01_22-23/results/synthesis/picorv32a.synthesis_cts.v
+
+read_liberty $::env(LIB_SYNTH_COMPLETE)
+
+link_design picorv32a
+
+read_sdc /openLANE_flow/designs/picorv32a/src/my_base.sdc
+
+set_propagated_clock [all_clocks]
+
+report_checks -path_delay min_max -format full_clock_expanded -digits 4
+
+slack for typical coirner= 0.1075nsec
+
+![image](https://user-images.githubusercontent.com/123365348/216884806-bb0fa455-79f7-4124-8ac9-0dec54dce94a.png)
+
+
 
 # Final steps to build power distribution network
   Lab steps to build power distribution network
