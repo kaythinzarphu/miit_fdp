@@ -427,3 +427,44 @@ show picorv32a.placement.def
 
 
 <img width="1512" alt="Screen Shot 2023-02-05 at 7 32 12 PM" src="https://user-images.githubusercontent.com/123365348/216821124-594a3232-7650-40ae-a465-591a0442882b.png">
+
+![image](https://user-images.githubusercontent.com/123365348/216879379-a7163968-0af3-4f9f-bb70-4ec7e2740ced.png)
+
+![image](https://user-images.githubusercontent.com/123365348/216880315-65db9aac-ca5b-4811-b139-5d8b7da38624.png)
+
+![image](https://user-images.githubusercontent.com/123365348/216881382-fc807ddb-cc64-49b3-bac9-08d9aa74b14e.png)
+vim pre_sta.conf
+
+![image](https://user-images.githubusercontent.com/123365348/216882090-2af61776-4812-4b7f-94fe-41fd806d920f.png)
+
+
+
+
+# Lab step to run CTS using TritonCTS
+  the command: "run_cts"
+  check the "tcl_commands"  and see the "cts.tcl" file
+  ![image](https://user-images.githubusercontent.com/123365348/216881615-e9ce7bc4-40b9-4029-bb4f-2d9a3f8937fa.png)
+  
+  Then it goes for open the openroad and check the openroad folder, at that directory "or.files" 
+
+  check the "or_cts.tcl" file
+  ![image](https://user-images.githubusercontent.com/123365348/216881722-07a84f70-6df9-48b7-a7a7-5d9844140973.png)
+
+Now checking the clock period of this by command: "echo $::env(SYNTH_MAX_TRAN)"
+
+So, clock period seted as 2.473 nsec.
+
+Then checking the max cap value, by command : "echo $::env(CTS_MAX_CAP)". and it is setted as 1.53169
+
+Now checking the branch buffer cells by command :"echo $::env(CTS_CLK_BUFFER_LIST)". and these are the buffer cells are listed there "sky130_fd_sc_hd__clkbuf_1 sky130_fd_sc_hd__clkbuf_2 sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_8".
+
+And last cheching the root buffer by command: "echo $::env(CTS_ROOT_BUFFER)". So, we find that this "sky130_fd_sc_hd__clkbuf_16 " buffer is root buffer.
+
+
+# Timing analysis with real clocks using openSTA
+With real clock, circuit looks littel bit different then ideal clock. Here the bufferes and wires are added to the circuts.
+
+Here, due to buffer, clock signals are not reaching the flop at t=0. it will reach at t=0+(delay of buffer 1 and 2).
+Now change to (θ+1+2)<(T+1+3+4)
+
+
